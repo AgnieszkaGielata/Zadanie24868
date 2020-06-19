@@ -1,14 +1,14 @@
 let name = 'firstNumber';
-let number = '1';
+let firstNumber = 3;
 console.log(name);
-console.log(number);
+console.log(firstNumber);
 let name2 = 'secondNumber';
-let number2 = '2';
+let secondNumber = 5;
 console.log(name2);
-console.log(number2);
+console.log(secondNumber);
 
 function suma(firstNumber, secondNumber) {
     let result = firstNumber + secondNumber;
     return result;
 }
-console.log( suma(1, 2) );
+console.log( suma(firstNumber, secondNumber) );
